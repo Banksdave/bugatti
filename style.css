@@ -1,0 +1,332 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 100px;
+    background: white;
+}
+.logo{
+    font-size: 19px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-links a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 15px;
+}
+.nav-links i {
+    font-size: 13px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.search-container input[type=text]{
+    padding: 6px 50px;
+    font-size: 14px;
+    border: none;
+    background: #f0eeee;
+    border-radius: 20px;
+}
+.search-container button:hover{
+    background: #ccc;
+}
+.icons {
+    margin-left: 10px;
+}
+.icons  span{
+ margin-left: 8px;
+ font-size: 10px;
+}
+
+.first{
+    background: url(newb.jpg);
+    padding: 6rem 7rem;
+    background-size: cover;
+    margin: 100px;
+    margin-top: 2px;
+    height: 590px;
+    margin-bottom: 5px;
+
+    
+}
+.first .container{
+    margin-top: 15rem;
+    margin-left: 1rem;
+}
+.first .container h1{
+    color: white;
+    font-weight: 700px;
+    font-size: 5rem;
+}
+.first .container p{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+.first .container button{
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    background: aqua;
+    color: black;
+    font-weight: bold;
+}
+.first .container button:hover{
+    color: blue;
+    transition: all 1s ease;
+}
+.second{
+    padding: 6rem 0;
+    background: white;
+}
+.second .container .h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+}
+.second .container .cover{
+    width: 88%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.second .container article{
+    width: 30.28rem;
+    height: 45rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: -5px 10px 5px #5c5959, 5px 5px 5px #666666;
+}
+.second .container article h1,
+.second .container article h3{
+    margin-left: 4rem;
+    color: black;
+}
+.second .container article h1{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.second .container article h3{
+    margin-bottom: 1rem;
+}
+.second .container article .big{
+    height: 20rem;
+}
+.second .container article ul{
+    margin-left: 5rem;
+}
+.second .container article ul li{
+    list-style: outside;
+    font-size: 1.5rem;
+    color: black;
+}
+.second .container article img{
+    width: 30.3rem;
+    border-radius: 2rem;
+}
+.third{
+    padding: 3rem;
+    background: whitesmoke;
+}
+.third .container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.third .container div h1{
+    color: black;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.third .container div p{
+    color: black;
+    font-size: 1.7rem;
+}
+.third .container div button{
+    margin: top 2rem;
+    padding: 2rem;
+    background: aqua;
+    border-radius: 1rem;
+}
+.third .container .img img{
+    width: 54rem;
+    border-radius: 2rem;
+}
+.fourth{
+    background: rgb(14, 13, 13);
+    padding: 4rem;
+}
+.fourth .container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+}
+.fourth .container .img img{
+    width: 54rem;
+    border-radius: 2rem;
+    height: 600px;
+}
+.fourth .container .text h1{
+    font-weight: 700;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.fourth .container .text p{
+    width: 80%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.fourth .container .text.flex{
+    margin-top: 1rem;
+    display: flex;
+    gap: 3rem;
+}
+.fourth .container .text button{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: aqua;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 1rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.container{
+    width: 82%;
+    margin: 0 auto;
+}
+@media screen and(max-width:1024px){
+    .container{
+        width: 90%;
+    }
+    nav .container .logo{
+        width: 30rem;
+    }
+    nav .container .btn{
+        display: inline-block;
+        background: black;
+        color: blue;
+        font-size: 4rem;
+        cursor: pointer;
+        margin-left: 30rem;
+    }
+    nav .container .m-1{
+        margin-left: 30rem;
+    }
+    nav .container .cover{
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        display: none;
+    }
+    nav .container .cover .icon-2{
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+    nav .container .cover .nav__menu{
+        flex-direction: column;
+        margin-left: 4rem;
+    }
+    .first{
+        height: 55vh;
+    }
+    .first .container div{
+        margin-top: -5rem;
+    }
+    .second .container .cover{
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+    .third .container{
+        grid-template-columns: 1fr;
+        row-gap: 4rem;
+    }
+    .fouth .container{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and(max-width: 600px){
+    .container{
+        width: 92%;
+    }
+    .first{
+        height: 100vh;
+    }
+    .second .container .cover{
+        grid-template-columns: 1fr;
+    }
+    .third .container{
+        grid-template-columns: 1fr;
+    }
+    .third .container .img img{
+        width: 30rem;
+    }
+    .fourth .container{
+        grid-template-columns: 1fr;
+    }
+    .fourth .container .img img{
+        width: 30rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
